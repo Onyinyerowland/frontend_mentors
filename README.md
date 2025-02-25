@@ -1,1 +1,1 @@
-Trying live projects from front end mentors
+Trying live projects from frontend mentors
