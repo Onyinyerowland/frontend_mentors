@@ -1,0 +1,54 @@
+.code {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background: rgb(192, 208, 236);
+    justify-items: center;
+    padding: 200px;
+    font-family: Arial, sans-serif;
+}
+
+/* adding media queries*/
+@media (min-width: 768px){
+    .code{
+        width: 48%;
+    }
+}
+
+.code-parent {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px;
+    align-content: center;
+    
+}
+
+.code-child {
+    background-color: rgb(77, 140, 235);
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 20px; 
+    align-self: center;
+    width: 100%;
+    height: 30vh;   
+}
+
+img {
+    width: 50%;
+    height: fit-content;
+    justify-content: center; 
+    margin-left: 25%;
+    
+}
+
+.coding {
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+    color: grey;
+}
+.code-heading {
+    text-align: center;
+}
